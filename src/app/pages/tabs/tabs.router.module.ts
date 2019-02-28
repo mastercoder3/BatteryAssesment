@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
+import { DashboardComponent } from '../dashboard/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
@@ -9,10 +10,11 @@ const routes: Routes = [
     children: [
       {
         path: 'tab1',
+        component: DashboardComponent,
         children: [
           {
             path: '',
-            loadChildren: '../tab1/tab1.module#Tab1PageModule'
+            loadChildren: '../dashboard/assessment/assessment.module#AssessmentPageModule'
           }
         ]
       },
