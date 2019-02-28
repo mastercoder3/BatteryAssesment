@@ -7,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+  selected="battery"
+
   constructor() { }
 
   ngOnInit() {}
+
+  setTab(val){
+    this.selected = val;
+  }
 
 }

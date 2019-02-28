@@ -1,0 +1,107 @@
+.header{
+    width: 100%;
+    height: 100px !important;
+    display: block !important;
+    position: relative;
+    top: 0px;
+}
+
+.topTabs{
+    display: table;
+    width: 100% !important;
+    height: 50px;
+}
+
+.topTabs h3{
+    display: table-cell;
+    width: 50%;
+    background: #244DB0;
+
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.bottomTabs{
+    position: relative;
+    top: -1px;
+    display: table;
+    background: #244DB0;
+    height: 50px !important;
+    max-height: 50px;
+    min-height: 50px;
+    width: 100% !important;
+}
+
+.bottomTabs ion-icon{
+    display: table-cell;
+    color: white;
+    padding-left: 30px;
+    font-size: 2.1em;
+}
+
+.bottomTabs h5{
+    display: table-cell;
+    color: white;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 1em;
+    word-wrap: break-word;
+}
+
+.active{
+    background: #4F70BF !important;
+}
+
+.disable{
+    background: #244DB0 !important;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.menuItem{
+    display: block;
+    position: relative;
+    top: -1px;
+    width: 100% !important;
+    height: 75px !important;
+    border-bottom: 1px rgba(136, 136, 136, 0.2) solid;
+
+}
+
+.itemHeader{
+    display: inline;
+    word-wrap: break-word;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #696767;
+    opacity: 0.9;
+    padding-left: 20px; 
+    position: relative;
+    top: 10px;    
+}
+
+.itemPara{
+    display: inline;
+    word-wrap: break-word;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #696767;
+    opacity: 0.8;
+    padding-left: 20px;
+    position: relative;
+    top: 10px;  
+}
+
+.itemActive{
+    border-left: 4px #0CC3F9 solid;
+   h4{
+    font-weight: bold;
+   }
+}
