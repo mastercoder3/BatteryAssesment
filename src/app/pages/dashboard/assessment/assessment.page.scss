@@ -1,0 +1,246 @@
+ion-header{
+    z-index: 0;
+}
+ion-content{
+    --background: #f4f4f4;
+}
+.Intake-div{
+    height: 180px;
+    width: 95%;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+.Assessment-list{
+    height: 270px;
+    width: 95%;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+.btn{
+    margin-right: 20px;
+    height: 45px;
+    width: 150px;
+    font-size: 12px;
+    --background: rgb(99, 214, 99);
+}
+@media (min-width: 360px) and (max-width: 374px){
+.Intake-div{
+    height: 210px;
+    width: 95%;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+.btn{
+    margin-right: 20px;
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+    --background: rgb(99, 214, 99);
+}
+.Assessment-list{
+    height: 350px;
+    width: 95%;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+}
+@media (min-width: 375px) and  (max-width: 410px){
+    .Intake-div{
+        height: 208px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+    .btn{
+        margin-right: 20px;
+        height: 35px;
+        width: 120px;
+        font-size: 12px;
+        --background: rgb(99, 214, 99);
+    }
+    .Assessment-list{
+        height: 350px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 411px) and (max-width: 440px){
+    .Intake-div{
+        height: 190px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+    .btn{
+        margin-right: 20px;
+        height: 45px;
+        width: 150px;
+        font-size: 12px;
+        --background: rgb(99, 214, 99);
+    }
+    .Assessment-list{
+        height: 350px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 320px) and  (max-width: 359px){
+    .Intake-div{
+        height: 225px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+    .btn{
+        margin-right: 20px;
+        height: 35px;
+        width: 120px;
+        font-size: 12px;
+        --background: rgb(99, 214, 99);
+    }
+    .Assessment-list{
+        height: 350px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .Intake-div{
+        height: 180px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+    .btn{
+        margin-right: 20px;
+        height: 45px;
+        width: 150px;
+        font-size: 12px;
+        --background: rgb(99, 214, 99);
+    }
+    .Assessment-list{
+        height: 270px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1024){
+    .Intake-div{
+        height: 180px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+    .btn{
+        margin-right: 20px;
+        height: 45px;
+        width: 150px;
+        font-size: 12px;
+        --background: rgb(99, 214, 99);
+    }
+    .Assessment-list{
+        height: 270px;
+        width: 95%;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+    }
+}
+.heading{
+    padding-top:2px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+#icon{
+    margin-right:20px;
+    color: grey;
+    font-size: 20px;
+}
+.para{
+    padding-left: 20px;
+    font-weight: 100;
+}
+.hr{
+    color: black !important;
+    border-top-width: 1px;
+    width: 100%;
+    opacity: 0.5;
+}
+.hr2{
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         35px;
+    width:          1px; 
+    opacity: 0.5; 
+}
+.icon1{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.para1{
+    margin-top:-5px;
+}
+.icon-para{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    margin-right: 3px;
+}
+.h2{
+    font-size: 18px;
+    padding-left: 3%;
+    font-weight: bold;
+}
+.Assessment-list-h2{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.Assessment-list-para{
+    padding-left:10px;
+    padding-top: 6px;
+}
