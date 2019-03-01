@@ -53,3 +53,42 @@
     box-shadow: 0;
     text-align: center;
 }
+
+.Assessment-list{
+    height: 270px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+ }
+
+ .Assessment-list-h2{
+    font-size: 18px;
+    margin-left: 20px;
+ }
+ .Assessment-list-para{
+    padding-left:10px;
+    padding-top: 6px;
+ }
+
+ hr{
+     width: 100%;
+     border-bottom: 1px rgba(209, 209, 209,0.6) solid;
+ }
+
+ .footer{
+     height: 60px;
+     width: 100%;
+     border-top: 1px rgba(209, 209, 209,0.6) solid;
+     position: relative;
+     bottom: 0px !important;
+     z-index: 1111;
+ }
+
+ion-button{
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
