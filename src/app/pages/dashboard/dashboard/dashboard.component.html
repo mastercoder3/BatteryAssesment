@@ -8,9 +8,9 @@
           <h3 [class.active]="selected !== 'battery' " (click)="setTab('battery')" style="cursor: pointer;">Batteries
           </h3>
         </div>
-        <div class="bottomTabs" *ngIf="selected === 'battery' ">
-          <ion-icon name="add-circle-outline"></ion-icon>
-          <h5>Create Assessment Battery</h5>
+        <div class="bottomTabs" *ngIf="selected === 'battery' " (click)="assessment()"  >
+          <ion-icon name="add-circle-outline" style="cursor: pointer;"></ion-icon>
+          <h5 style="cursor: pointer;">Create Assessment Battery</h5>
         </div>
         <div class="bottomTabs" *ngIf="selected === 'assessment' ">
           <ion-icon name="add-circle-outline"></ion-icon>

@@ -15,6 +15,10 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../dashboard/assessment/assessment.module#AssessmentPageModule'
+          },
+          {
+            path: 'create',
+            loadChildren: '../dashboard/create-assessment/create-assessment.module#CreateAssessmentPageModule'
           }
         ]
       }
