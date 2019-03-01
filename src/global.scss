@@ -9,3 +9,24 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+@media (min-width: 900px) {
+    .modal-wrapper{
+        --height: 55% !important;
+        --width: 60% !important;
+        --border-radius: 5px;
+        --background: #f4f4f4 !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 899px) {
+    .modal-wrapper{
+        --height: 85% !important;
+        --width: 90% !important;
+        --border-radius: 5px;
+        --background: #f4f4f4 !important;
+
+    }
+}
+
+
